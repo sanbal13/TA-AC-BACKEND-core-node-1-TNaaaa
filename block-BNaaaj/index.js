@@ -1,6 +1,8 @@
+let os = require('os');
+let {readFile, unlink} = require('fs');
 console.log('Welcome to Nodejs')
 
-let os = require('os');
+
 // number of cpu's, free memory, uptime and version
 
 console.log(os.cpus().length);
