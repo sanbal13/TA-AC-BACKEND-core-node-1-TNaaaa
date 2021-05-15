@@ -10,8 +10,8 @@ function handleRequest(req, res) {
     console.log(parsedUrl);
     console.log(parsedUrl.pathname);
     let email = parsedUrl.query;
-    console.log(email);
-    res.write(email);
+    console.log(JSON.stringify(email));
+    res.end(JSON.stringify(email));
 
 }
 server.listen(2345, () => {
