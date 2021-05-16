@@ -42,6 +42,6 @@ function handleRequest(req, res) {
   }
 }
 
-server.listen(4000, () => {
-  console.log('server listening on port 4000');
+server.listen(3000, () => {
+  console.log('server listening on port 3000');
 });
